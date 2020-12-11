@@ -1,7 +1,8 @@
 # User Movement in Location-Based Social Networks in Megalopolises
 
 ## Abstract
-Foursquare is a location-based social network based on check-ins similar to Gowalla and Brightkite. In this case, the dataset contains information about check-ins for two densely populated cities: New York City and Tokyo. The idea behind this extension is to study the effect of human mobility in much more densely populated areas.  Indeed, a lot of people move to such attractive cities looking for out of habit experiences. By comparing the mobility patterns from these two megalopolises to those showcased in the paper “Friendship and Mobility”, we hope to pinpoint trends which would justify this attraction to cities.  Given that these cities are bubbling with life, we would like to investigate and understand if daily routines are still present, or if there is more entropy in human movement.
+Foursquare is a location-based social network based on check-ins similar to Gowalla and Brightkite. In this case, the dataset contains information about check-ins for two densely populated cities: New York City and Tokyo. The idea behind this extension is to study the effect of human mobility in much more densely populated areas. Indeed, a lot of people move to such attractive cities looking for out of habit experiences. By comparing the mobility patterns from these two megalopolises to those showcased in the paper “Friendship and Mobility”, we hope to pinpoint trends which would justify this attraction to cities. Given that these cities are bubbling with life, we would like to investigate and understand if daily routines are still present, or if there is more entropy in human movement. Collecting such information and understanding the patterns holds great implications in multiple domains.  Not only does it provide useful knowledge in order to optimize urban planning, it also informs greatly on a larger scale, indicating which activity is most done, where and when.  In the current context of Covid19, such information can contribute greatly to predict where the clusters have a higher tendency to form, and how they will most likely spread.
+
 
 ## Research Questions
 * When looking at users’ check-ins: Do they limit themselves to a work/home pattern, or is there more variety in their check-ins? Moreover, are these check-ins more spread out or constrained to their neighborhood. Are these trends periodic or do users often discover new places?
@@ -37,8 +38,15 @@ Week 4 (before Dec 23rd):
 * Film video presenting our results
 
 ## Organization within the team
-Our planning for the next project milestone consists in pre-processing and getting started with the data altogether.  Then we will split up the tasks to try to answer the research questions in parallel, keeping each other updated so we can advance efficiently. Once the notebook is completed and the graphs are obtained, we’ll make our data story and then work separately on the replication part of this milestone.  Once everything is handed in, we’ll meet up to film the video presenting our project and our results!
-
-
-
-
+* Loading and cleaning the data set: Julien
+* Preprocessing the data set: Janet
+* Identifying user’s homes and looking at where they are located: Louise
+* Seeing how far from home users travel: Janet
+* Looking at habits/routines: Julien
+* What type of activities are most popular? Louise
+* Comparing both megalopolises: Julien
+* Figuring out how to make the template for the data story: Janet
+* Writing out the text for the data story: Louise
+* Adding the plots and finalizing the data story: Julien
+* Making slides for video: Louise and Julien
+* Recording video presenting our project: Janet
