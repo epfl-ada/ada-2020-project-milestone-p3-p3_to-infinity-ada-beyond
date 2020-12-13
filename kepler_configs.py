@@ -16,9 +16,9 @@ config_nyc = {
           "type": "timeRange",
           "value": [
             1608854400000,
-            1608876042000
+            1608857960000
           ],
-          "enlarged": False,
+          "enlarged": True,
           "plotType": "histogram",
           "animationWindow": "free",
           "yAxis": None
@@ -347,9 +347,9 @@ config_tky = {
           "type": "timeRange",
           "value": [
             1608854400000,
-            1608876007000
+            1608858050000
           ],
-          "enlarged": False,
+          "enlarged": True,
           "plotType": "histogram",
           "animationWindow": "free",
           "yAxis": None
@@ -666,7 +666,7 @@ config_tky = {
 #############################################################
 # For NYC looking at the locations of different categories of venues
 
-nyc_categories_config = {
+nyc_categories_config ={
   "version": "v1",
   "config": {
     "visState": {
@@ -686,7 +686,7 @@ nyc_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -722,7 +722,7 @@ nyc_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -787,7 +787,7 @@ nyc_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -819,7 +819,7 @@ nyc_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -884,7 +884,7 @@ nyc_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -916,7 +916,7 @@ nyc_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -981,7 +981,7 @@ nyc_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -1013,7 +1013,7 @@ nyc_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -1078,7 +1078,7 @@ nyc_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -1110,7 +1110,7 @@ nyc_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -1175,7 +1175,7 @@ nyc_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -1207,7 +1207,7 @@ nyc_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -1272,7 +1272,7 @@ nyc_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -1304,7 +1304,7 @@ nyc_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -1401,7 +1401,7 @@ nyc_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -1658,10 +1658,10 @@ nyc_categories_config = {
     "mapState": {
       "bearing": 0,
       "dragRotate": False,
-      "latitude": 40.718463828440136,
-      "longitude": -73.75587145017717,
+      "latitude": 40.80922626940186,
+      "longitude": -74.06826259958444,
       "pitch": 0,
-      "zoom": 9,
+      "zoom": 9.620163690018412,
       "isSplit": False
     },
     "mapStyle": {
@@ -1708,7 +1708,7 @@ tky_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -1744,7 +1744,7 @@ tky_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -1809,7 +1809,7 @@ tky_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -1841,7 +1841,7 @@ tky_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -1906,7 +1906,7 @@ tky_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -1938,7 +1938,7 @@ tky_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -2003,7 +2003,7 @@ tky_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -2035,7 +2035,7 @@ tky_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -2100,7 +2100,7 @@ tky_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -2132,7 +2132,7 @@ tky_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -2197,7 +2197,7 @@ tky_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -2229,7 +2229,7 @@ tky_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -2294,7 +2294,7 @@ tky_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": False,
+            "isVisible": True,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -2326,7 +2326,7 @@ tky_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
@@ -2391,7 +2391,7 @@ tky_categories_config = {
             "columns": {
               "geojson": "geometry"
             },
-            "isVisible": True,
+            "isVisible": False,
             "visConfig": {
               "opacity": 0.8,
               "strokeOpacity": 0.8,
@@ -2423,7 +2423,7 @@ tky_categories_config = {
                   "#FFC300"
                 ]
               },
-              "radius": 6,
+              "radius": 4,
               "sizeRange": [
                 0,
                 10
