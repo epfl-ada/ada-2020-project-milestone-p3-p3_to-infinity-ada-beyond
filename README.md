@@ -1,5 +1,23 @@
 # User Movement in Location-Based Social Networks in Megalopolises
 
+Note: The interactive plots do not show up on github.  As a result, we inserted screenshots in order to have an idea of outcome of these functions.  To be able to use these interactive plots, please refer to the data story, or simply by runing the notebook.
+
+## Organization of the Github
+
+In the github are contained the following documents:
+* A folder entitled "Images" which contains the images inserted inside of our notebook
+* A folder entitled "html" which contains the html code used in our data story
+* the notebook "Project_3_Extension.ipynb" is the notebook used for this project extension, which contains all the code used to draw our plots and produce our results.
+* the python script "helpers.py" contains the function used in our notebook.  This function splits the check-in according to their type of venues into distinct categories.
+* the python script "kepler_configs.py" is used to load the maps into kepler: producing maps with the desired filters and style which evolve according to the time of day.
+
+
+External libraries were used in order to make interactive plots with the maps of New York City and Tokyo:
+* folium
+* geopandas
+* keplergl
+
+
 ## Abstract
 Foursquare is a location-based social network based on check-ins similar to Gowalla and Brightkite. In this case, the dataset contains information about check-ins for two densely populated cities: New York City and Tokyo. The idea behind this extension is to study the effect of human mobility in much more densely populated areas. Indeed, a lot of people move to such attractive cities looking for out of habit experiences. By comparing the mobility patterns from these two megalopolises to those showcased in the paper “Friendship and Mobility”, we hope to pinpoint trends which would justify this attraction to cities. Given that these cities are bubbling with life, we would like to investigate and understand if daily routines are still present, or if there is more entropy in human movement. Collecting such information and understanding the patterns holds great implications in multiple domains.  Not only does it provide useful knowledge in order to optimize urban planning, it also informs greatly on a larger scale, indicating which activity is most done, where and when.  In the current context of Covid19, such information can contribute greatly to predict where the clusters have a higher tendency to form, and how they will most likely spread.
 
