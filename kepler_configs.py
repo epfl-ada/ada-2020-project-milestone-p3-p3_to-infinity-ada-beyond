@@ -666,7 +666,7 @@ config_tky = {
 #############################################################
 # For NYC looking at the locations of different categories of venues
 
-nyc_categories_config ={
+nyc_categories_config = {
   "version": "v1",
   "config": {
     "visState": {
@@ -1458,184 +1458,56 @@ nyc_categories_config ={
           "fieldsToShow": {
             "Food": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Arts & Entertainment": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Fitness": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Shopping": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Work & School": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Travel & Transport": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Home & Residential": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Nightlife": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ]
           },
           "compareMode": False,
           "compareType": "absolute",
-          "enabled": False
+          "enabled": True
         },
         "brush": {
           "size": 0.5,
@@ -2480,184 +2352,56 @@ tky_categories_config = {
           "fieldsToShow": {
             "Food": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Arts & Entertainment": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Fitness": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Shopping": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Work & School": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Travel & Transport": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Home & Residential": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ],
             "Nightlife": [
               {
-                "name": "user_ID",
-                "format": None
-              },
-              {
-                "name": "venue_ID",
-                "format": None
-              },
-              {
-                "name": "venue_category_ID",
-                "format": None
-              },
-              {
                 "name": "venue_category_name",
-                "format": None
-              },
-              {
-                "name": "offset",
                 "format": None
               }
             ]
           },
           "compareMode": False,
           "compareType": "absolute",
-          "enabled": False
+          "enabled": True
         },
         "brush": {
           "size": 0.5,
